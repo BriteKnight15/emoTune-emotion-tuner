@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840983A42C6AD1D100956A94 /* firstAppHopefullyEmoTuneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840983A32C6AD1D100956A94 /* firstAppHopefullyEmoTuneApp.swift */; };
+		840983A62C6AD1D100956A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840983A52C6AD1D100956A94 /* ContentView.swift */; };
+		840983A82C6AD1D400956A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840983A72C6AD1D400956A94 /* Assets.xcassets */; };
+		840983AB2C6AD1D400956A94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840983AA2C6AD1D400956A94 /* Preview Assets.xcassets */; };
+		840983B42C6D1A0200956A94 /* DDAMFN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 840983B32C6D1A0200956A94 /* DDAMFN.mlmodel */; };
+		847943012D3841B5004CD069 /* LoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847943002D3841B5004CD069 /* LoggingView.swift */; };
+		847943032D3852DF004CD069 /* GoalHitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847943022D3852DF004CD069 /* GoalHitView.swift */; };
+		847943052D395835004CD069 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847943042D395835004CD069 /* OnboardingView.swift */; };
+		84C388452D174109005FBD42 /* anger.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388442D174109005FBD42 /* anger.MOV */; };
+		84C388472D17410D005FBD42 /* disgust.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388462D17410D005FBD42 /* disgust.MOV */; };
+		84C388492D174112005FBD42 /* eyebrowsFurrowDown.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388482D174112005FBD42 /* eyebrowsFurrowDown.MOV */; };
+		84C3884B2D174116005FBD42 /* eyebrowsFurrowUp.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C3884A2D174116005FBD42 /* eyebrowsFurrowUp.MOV */; };
+		84C388562D174123005FBD42 /* eyesWiden.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C3884D2D174123005FBD42 /* eyesWiden.MOV */; };
+		84C388572D174123005FBD42 /* mouthCornersDown.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C3884F2D174123005FBD42 /* mouthCornersDown.MOV */; };
+		84C388582D174123005FBD42 /* fear.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C3884E2D174123005FBD42 /* fear.MOV */; };
+		84C388592D174123005FBD42 /* neutral.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388502D174123005FBD42 /* neutral.MOV */; };
+		84C3885A2D174123005FBD42 /* noseFlare.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388512D174123005FBD42 /* noseFlare.MOV */; };
+		84C3885B2D174123005FBD42 /* noseFlareDisgust.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388522D174123005FBD42 /* noseFlareDisgust.MOV */; };
+		84C3885C2D174123005FBD42 /* smile.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388542D174123005FBD42 /* smile.MOV */; };
+		84C3885D2D174123005FBD42 /* eyebrowsFurrowUpEyesWiden.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C3884C2D174123005FBD42 /* eyebrowsFurrowUpEyesWiden.MOV */; };
+		84C3885E2D174123005FBD42 /* sad.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388532D174123005FBD42 /* sad.MOV */; };
+		84C3885F2D174123005FBD42 /* surprise.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 84C388552D174123005FBD42 /* surprise.MOV */; };
+		84C758F62D332F1C003E5D56 /* PictureCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C758F52D332F1C003E5D56 /* PictureCoverView.swift */; };
+		84C759532D36ADAB003E5D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C759522D36ADAB003E5D56 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840983A02C6AD1D100956A94 /* emoTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840983A32C6AD1D100956A94 /* firstAppHopefullyEmoTuneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAppHopefullyEmoTuneApp.swift; sourceTree = "<group>"; };
+		840983A52C6AD1D100956A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		840983A72C6AD1D400956A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840983AA2C6AD1D400956A94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840983B32C6D1A0200956A94 /* DDAMFN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DDAMFN.mlmodel; sourceTree = "<group>"; };
+		847943002D3841B5004CD069 /* LoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingView.swift; sourceTree = "<group>"; };
+		847943022D3852DF004CD069 /* GoalHitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalHitView.swift; sourceTree = "<group>"; };
+		847943042D395835004CD069 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		84C388442D174109005FBD42 /* anger.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = anger.MOV; sourceTree = "<group>"; };
+		84C388462D17410D005FBD42 /* disgust.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = disgust.MOV; sourceTree = "<group>"; };
+		84C388482D174112005FBD42 /* eyebrowsFurrowDown.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = eyebrowsFurrowDown.MOV; sourceTree = "<group>"; };
+		84C3884A2D174116005FBD42 /* eyebrowsFurrowUp.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = eyebrowsFurrowUp.MOV; sourceTree = "<group>"; };
+		84C3884C2D174123005FBD42 /* eyebrowsFurrowUpEyesWiden.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = eyebrowsFurrowUpEyesWiden.MOV; sourceTree = "<group>"; };
+		84C3884D2D174123005FBD42 /* eyesWiden.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = eyesWiden.MOV; sourceTree = "<group>"; };
+		84C3884E2D174123005FBD42 /* fear.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = fear.MOV; sourceTree = "<group>"; };
+		84C3884F2D174123005FBD42 /* mouthCornersDown.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = mouthCornersDown.MOV; sourceTree = "<group>"; };
+		84C388502D174123005FBD42 /* neutral.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = neutral.MOV; sourceTree = "<group>"; };
+		84C388512D174123005FBD42 /* noseFlare.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = noseFlare.MOV; sourceTree = "<group>"; };
+		84C388522D174123005FBD42 /* noseFlareDisgust.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = noseFlareDisgust.MOV; sourceTree = "<group>"; };
+		84C388532D174123005FBD42 /* sad.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sad.MOV; sourceTree = "<group>"; };
+		84C388542D174123005FBD42 /* smile.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = smile.MOV; sourceTree = "<group>"; };
+		84C388552D174123005FBD42 /* surprise.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = surprise.MOV; sourceTree = "<group>"; };
+		84C758F52D332F1C003E5D56 /* PictureCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCoverView.swift; sourceTree = "<group>"; };
+		84C759522D36ADAB003E5D56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8409839D2C6AD1D100956A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840983972C6AD1D100956A94 = {
+			isa = PBXGroup;
+			children = (
+				840983B32C6D1A0200956A94 /* DDAMFN.mlmodel */,
+				840983A22C6AD1D100956A94 /* firstAppHopefullyEmoTune */,
+				840983A12C6AD1D100956A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840983A12C6AD1D100956A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840983A02C6AD1D100956A94 /* emoTune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840983A22C6AD1D100956A94 /* firstAppHopefullyEmoTune */ = {
+			isa = PBXGroup;
+			children = (
+				840983A32C6AD1D100956A94 /* firstAppHopefullyEmoTuneApp.swift */,
+				840983A52C6AD1D100956A94 /* ContentView.swift */,
+				847943002D3841B5004CD069 /* LoggingView.swift */,
+				847943022D3852DF004CD069 /* GoalHitView.swift */,
+				84C759522D36ADAB003E5D56 /* ViewController.swift */,
+				84C758F52D332F1C003E5D56 /* PictureCoverView.swift */,
+				847943042D395835004CD069 /* OnboardingView.swift */,
+				840983A72C6AD1D400956A94 /* Assets.xcassets */,
+				84C388442D174109005FBD42 /* anger.MOV */,
+				84C388462D17410D005FBD42 /* disgust.MOV */,
+				84C388482D174112005FBD42 /* eyebrowsFurrowDown.MOV */,
+				84C3884A2D174116005FBD42 /* eyebrowsFurrowUp.MOV */,
+				84C3884C2D174123005FBD42 /* eyebrowsFurrowUpEyesWiden.MOV */,
+				84C3884D2D174123005FBD42 /* eyesWiden.MOV */,
+				84C3884E2D174123005FBD42 /* fear.MOV */,
+				84C3884F2D174123005FBD42 /* mouthCornersDown.MOV */,
+				84C388502D174123005FBD42 /* neutral.MOV */,
+				84C388512D174123005FBD42 /* noseFlare.MOV */,
+				84C388522D174123005FBD42 /* noseFlareDisgust.MOV */,
+				84C388532D174123005FBD42 /* sad.MOV */,
+				84C388542D174123005FBD42 /* smile.MOV */,
+				84C388552D174123005FBD42 /* surprise.MOV */,
+				840983A92C6AD1D400956A94 /* Preview Content */,
+			);
+			path = firstAppHopefullyEmoTune;
+			sourceTree = "<group>";
+		};
+		840983A92C6AD1D400956A94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				840983AA2C6AD1D400956A94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8409839F2C6AD1D100956A94 /* firstAppHopefullyEmoTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840983AE2C6AD1D400956A94 /* Build configuration list for PBXNativeTarget "firstAppHopefullyEmoTune" */;
+			buildPhases = (
+				8409839C2C6AD1D100956A94 /* Sources */,
+				8409839D2C6AD1D100956A94 /* Frameworks */,
+				8409839E2C6AD1D100956A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firstAppHopefullyEmoTune;
+			productName = firstAppHopefullyEmoTune;
+			productReference = 840983A02C6AD1D100956A94 /* emoTune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840983982C6AD1D100956A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8409839F2C6AD1D100956A94 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8409839B2C6AD1D100956A94 /* Build configuration list for PBXProject "updatedEmoTune" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840983972C6AD1D100956A94;
+			packageReferences = (
+				84FFEDB02CBB35C500ACEFCC /* XCRemoteSwiftPackageReference "ChatBotMain" */,
+			);
+			productRefGroup = 840983A12C6AD1D100956A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8409839F2C6AD1D100956A94 /* firstAppHopefullyEmoTune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8409839E2C6AD1D100956A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C3884B2D174116005FBD42 /* eyebrowsFurrowUp.MOV in Resources */,
+				84C388562D174123005FBD42 /* eyesWiden.MOV in Resources */,
+				84C388572D174123005FBD42 /* mouthCornersDown.MOV in Resources */,
+				84C388582D174123005FBD42 /* fear.MOV in Resources */,
+				84C388592D174123005FBD42 /* neutral.MOV in Resources */,
+				84C3885A2D174123005FBD42 /* noseFlare.MOV in Resources */,
+				84C3885B2D174123005FBD42 /* noseFlareDisgust.MOV in Resources */,
+				84C3885C2D174123005FBD42 /* smile.MOV in Resources */,
+				84C3885D2D174123005FBD42 /* eyebrowsFurrowUpEyesWiden.MOV in Resources */,
+				84C3885E2D174123005FBD42 /* sad.MOV in Resources */,
+				84C3885F2D174123005FBD42 /* surprise.MOV in Resources */,
+				84C388492D174112005FBD42 /* eyebrowsFurrowDown.MOV in Resources */,
+				840983AB2C6AD1D400956A94 /* Preview Assets.xcassets in Resources */,
+				840983A82C6AD1D400956A94 /* Assets.xcassets in Resources */,
+				84C388472D17410D005FBD42 /* disgust.MOV in Resources */,
+				84C388452D174109005FBD42 /* anger.MOV in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8409839C2C6AD1D100956A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C759532D36ADAB003E5D56 /* ViewController.swift in Sources */,
+				847943012D3841B5004CD069 /* LoggingView.swift in Sources */,
+				840983A62C6AD1D100956A94 /* ContentView.swift in Sources */,
+				840983A42C6AD1D100956A94 /* firstAppHopefullyEmoTuneApp.swift in Sources */,
+				840983B42C6D1A0200956A94 /* DDAMFN.mlmodel in Sources */,
+				847943052D395835004CD069 /* OnboardingView.swift in Sources */,
+				84C758F62D332F1C003E5D56 /* PictureCoverView.swift in Sources */,
+				847943032D3852DF004CD069 /* GoalHitView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		840983AC2C6AD1D400956A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840983AD2C6AD1D400956A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840983AF2C6AD1D400956A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"firstAppHopefullyEmoTune/Preview Content\"";
+				DEVELOPMENT_TEAM = GL5BLC7D5Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed so you can upload pictures from the camera for analysis of your facial expression. Note that emoTune does not collect any data from the camera or any functionality associated with it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emoTune;
+				PRODUCT_NAME = emoTune;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		840983B02C6AD1D400956A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"firstAppHopefullyEmoTune/Preview Content\"";
+				DEVELOPMENT_TEAM = GL5BLC7D5Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed so you can upload pictures from the camera for analysis of your facial expression. Note that emoTune does not collect any data from the camera or any functionality associated with it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emoTune;
+				PRODUCT_NAME = emoTune;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8409839B2C6AD1D100956A94 /* Build configuration list for PBXProject "updatedEmoTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840983AC2C6AD1D400956A94 /* Debug */,
+				840983AD2C6AD1D400956A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840983AE2C6AD1D400956A94 /* Build configuration list for PBXNativeTarget "firstAppHopefullyEmoTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840983AF2C6AD1D400956A94 /* Debug */,
+				840983B02C6AD1D400956A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84FFEDB02CBB35C500ACEFCC /* XCRemoteSwiftPackageReference "ChatBotMain" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Archetapp/ChatBotMain";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 840983982C6AD1D100956A94 /* Project object */;
+}

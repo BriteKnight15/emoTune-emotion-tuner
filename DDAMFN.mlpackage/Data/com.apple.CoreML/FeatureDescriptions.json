@@ -1,0 +1,24 @@
+{
+  "Outputs" : {
+    "var_4411" : {
+      "MLFeatureShortDescription" : ""
+    },
+    "x_201" : {
+      "MLFeatureShortDescription" : ""
+    },
+    "y_1" : {
+      "MLFeatureShortDescription" : ""
+    },
+    "linear_0" : {
+      "MLFeatureShortDescription" : ""
+    }
+  },
+  "Inputs" : {
+    "input_1" : {
+      "MLFeatureShortDescription" : ""
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}

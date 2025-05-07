@@ -1,0 +1,8 @@
+{
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.coreml.model.preview.params" : "{\"labels\": [\"Neutral\", \"Happy\", \"Sad\", \"Surprise\", \"Fear\", \"Disgust\", \"Angry\"]}",
+    "com.github.apple.coremltools.source" : "torch==2.3.1+cu121",
+    "com.github.apple.coremltools.version" : "7.2",
+    "com.github.apple.coremltools.source_dialect" : "TorchScript"
+  }
+}
